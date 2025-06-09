@@ -1,30 +1,36 @@
-<html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vasilis Portfolio</title>
+    <meta name="description" content="Vasilis Featured Projects - Showcasing innovative web applications and interactive experiences.">
+    <meta name="keywords" content="Web Development, JavaScript, React, AI, Projects, Vasilis Nikitaras">
+    <title>Vasilis Featured Projects</title>
+    
+    <!-- Google AdSense Verification -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7384081751053780" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <button id="darkModeToggle">Toggle Dark Mode</button>
+    <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
 
     <nav>
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">👨‍💻 About</a></li>
+            <li><a href="#projects">💡 Projects</a></li>
+            <li><a href="#contact">📩 Contact</a></li>
         </ul>
     </nav>
 
     <section id="about">
-        <h1 id="animatedText"></h1>
-        <p>Hi, I'm Vasilis, a passionate web developer!</p>
+        <h1 id="animatedText">🚀 Featured Projects</h1>
+        <p>Explore my latest web applications and interactive experiences!</p>
     </section>
 
     <section id="projects">
-        <h2>My Projects</h2>
+        <h2>💡 My Projects</h2>
         <div class="filter-buttons">
             <button onclick="filterProjects('all')">All</button>
             <button onclick="filterProjects('JavaScript')">JavaScript</button>
@@ -32,19 +38,53 @@
         </div>
         <div class="project-list">
             <div class="project" data-category="JavaScript">
-                <a href="https://vasilisnikitaras.github.io/ai-resume-builder/" target="_blank">AI-Powered Resume Builder</a>
+                <h3>📝 AI-Powered Resume Builder</h3>
+                <p>Create professional resumes effortlessly with AI-driven formatting and suggestions.</p>
+                <a href="https://vasilisnikitaras.github.io/ai-resume-builder/" target="_blank">View Project</a>
             </div>
             <div class="project" data-category="JavaScript">
-                <a href="https://vasilisnikitaras.github.io/crypto-tracker-dashboard/" target="_blank">Crypto Tracker Dashboard</a>
+                <h3>📊 Crypto Tracker Dashboard</h3>
+                <p>Monitor real-time cryptocurrency prices and trends with an interactive dashboard.</p>
+                <a href="https://vasilisnikitaras.github.io/crypto-tracker-dashboard/" target="_blank">View Project</a>
             </div>
             <div class="project" data-category="React">
-                <a href="https://vasilisnikitaras.github.io/interactive-quiz-app/" target="_blank">Interactive Quiz App</a>
+                <h3>🎯 Interactive Quiz App</h3>
+                <p>Test your knowledge with dynamic quizzes and instant feedback.</p>
+                <a href="https://vasilisnikitaras.github.io/interactive-quiz-app/" target="_blank">View Project</a>
             </div>
         </div>
     </section>
 
+    <!-- AdSense Integration -->
+    <section id="ads">
+        <h2>💰 Sponsored Content – Trusted Partnerships</h2>
+        <p>VasiVerse collaborates with innovative brands to bring valuable content and services to users.</p>
+        
+        <h3>🔹 Why Sponsored Content?</h3>
+        <ul>
+            <li>✔ Supports high-quality content creation on VasiVerse.</li>
+            <li>✔ Brings exclusive offers and insights from industry leaders.</li>
+            <li>✔ Helps maintain a free and user-friendly experience.</li>
+        </ul>
+
+        <div id="ad-container">
+            <!-- Google AdSense Integration -->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7384081751053780"
+                crossorigin="anonymous"></script>
+            <ins class="adsbygoogle"
+                style="display:block; text-align:center;"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-7384081751053780"
+                data-ad-slot="5631998379"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </section>
+
     <section id="contact">
-        <h2>Contact Me</h2>
+        <h2>📩 Contact Me</h2>
         <form id="contactForm">
             <input type="text" id="name" placeholder="Your Name">
             <input type="email" id="email" placeholder="Your Email">
@@ -57,10 +97,9 @@
     <!-- Footer -->
     <footer>
         <p>© 2025 Created by Vasileios Nikitaras. All rights reserved.</p>
-        <button id="scrollTopBtn">↑ Back to Top</button>
+        <button id="scrollTopBtn">⬆ Back to Top</button>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
